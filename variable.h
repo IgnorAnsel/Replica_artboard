@@ -1,30 +1,30 @@
 #pragma once
 #include"comment.h"
-#define PI 3.1415926535//¶¨ÒåPI
-ExMessage mouse;//Êó±ê¶¨Òå
-int isdown;//Êó±ê°´ÏÂÓë·ñ
-int mousex, mousey;//ÔÚ»æÍ¼Çø¼ÇÂ¼mouse×ø±ê
-int bmousex, bmousey;//ÔÚ»­Ö±ÏßÉÈÐÎµÈÖÐ¼ÇÂ¼mouseµÄÆðµã
-int emousex, emousey;//ÔÚ¹¦ÄÜÇø¼ÇÂ¼mouseµÄ×ø±ê
+#define PI 3.1415926535//ï¿½ï¿½ï¿½ï¿½PI
+ExMessage mouse;//ï¿½ï¿½ê¶¨ï¿½ï¿½
+int isdown;//ï¿½ï¿½ê°´ï¿½ï¿½ï¿½ï¿½ï¿½
+int mousex, mousey;//ï¿½Ú»ï¿½Í¼ï¿½ï¿½ï¿½ï¿½Â¼mouseï¿½ï¿½ï¿½ï¿½
+int bmousex, bmousey;//ï¿½Ú»ï¿½Ö±ï¿½ï¿½ï¿½ï¿½ï¿½Îµï¿½ï¿½Ð¼ï¿½Â¼mouseï¿½ï¿½ï¿½ï¿½ï¿½
+int emousex, emousey;//ï¿½Ú¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¼mouseï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 int cc,cc1;
-int x = 0;//R±äÁ¿
-int y = 0;//G±äÁ¿
-int z = 0;//B±äÁ¿
-double r1 = 0,r2= 0;//»¡¶ÈÖµ
-double r;//´¢´æÉèÖÃºÃµÄrÖµ
-int exchangel = 1, exchanger = 1,exchangeu=1,exchanged=1;//ÉÈÐÎÔ²»¡µÄ·½Ïò¸Ä±ä
+int x = 0;//Rï¿½ï¿½ï¿½ï¿½
+int y = 0;//Gï¿½ï¿½ï¿½ï¿½
+int z = 0;//Bï¿½ï¿½ï¿½ï¿½
+double r1 = 0,r2= 0;//ï¿½ï¿½ï¿½ï¿½Öµ
+double r;//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÃºÃµï¿½rÖµ
+int exchangel = 1, exchanger = 1,exchangeu=1,exchanged=1;//ï¿½ï¿½ï¿½ï¿½Ô²ï¿½ï¿½ï¿½Ä·ï¿½ï¿½ï¿½Ä±ï¿½
 TCHAR s[10];//
-int functionnum = -100;//´æ´¢°´ÏÂ¹¦ÄÜºóµÄÖµ
-int penstyle = 1;//´¢´æ»­±ÊµÄÀàÐÍ
-int linethick = 2;//´¢´æ»­±Ê´ÖÏ¸
-int colornum = -100;//ÔÝ¶¨µÄÑÕÉ«Ñ¡Ôñ
-int colorsure = -100;//È·¶¨ÑÕÉ«
-int mycolornum = -100;//ÔÝ¶¨×Ô¼ºµÄÑÕÉ«Ñ¡Ôñ
-int mycolorsure = -100;//È·¶¨×Ô¼ºµÄÑÕÉ«
-int formnum=-100;//´¢´æÑùÊ½Ñ¡Ôñ¿ò
-int formsure=-100;//È·¶¨Í¼ÐÎÑùÊ½
-int count = 0;//Ò»Ö±Í£Áô¼ÆÊý
-int ellimask=-1;//ÊµÏÖ»­ÍÖÔ²ÆðÊ¼µãÎÊÌâµÄÕÚ¸Ç
+int functionnum = -100;//ï¿½æ´¢ï¿½ï¿½ï¿½Â¹ï¿½ï¿½Üºï¿½ï¿½Öµ
+int penstyle = 1;//ï¿½ï¿½ï¿½æ»­ï¿½Êµï¿½ï¿½ï¿½ï¿½ï¿½
+int linethick = 2;//ï¿½ï¿½ï¿½æ»­ï¿½Ê´ï¿½Ï¸
+int colornum = -100;//ï¿½Ý¶ï¿½ï¿½ï¿½ï¿½ï¿½É«Ñ¡ï¿½ï¿½
+int colorsure = -100;//È·ï¿½ï¿½ï¿½ï¿½É«
+int mycolornum = -100;//ï¿½Ý¶ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½É«Ñ¡ï¿½
+int mycolorsure = -100;//È·ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½É«
+int formnum=-100;//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½Ñ¡ï¿½ï¿½ï¿½
+int formsure=-100;//È·ï¿½ï¿½Í¼ï¿½ï¿½ï¿½ï¿½Ê½
+int count = 0;//Ò»Ö±Í£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+int ellimask=-1;//Êµï¿½Ö»ï¿½ï¿½ï¿½Ô²ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú¸ï¿½
 
 
 
